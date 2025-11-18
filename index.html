@@ -113,6 +113,28 @@
       margin: 1.5rem 0;
     }
     
+    .materials-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    
+    .material-item {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+    
+    .material-item img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    
     .prep-list {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -144,15 +166,47 @@
 </head>
 <body>
   <div class="container">
-    <h1>Homework: Tape Transfer Techniques</h1>
+    <h1>Tape Transfer Techniques</h1>
     
-    <p>Create unique textures and designs using tape transfer techniques for your Term 2 project. This method allows you to transfer printed images onto various surfaces.</p>
+    <p>Create unique designs using tape transfer techniques for your Term 2 project. This method allows you to transfer printed images onto various surfaces.</p>
     
     <!-- VIDEO TUTORIAL SECTION -->
     <div class="video-tutorial">
-      <div class="video-caption">Tape Transfer Technique: Watch Before Class</div>
+      <div class="video-caption">Watch Before Class</div>
       <div class="video-wrapper">
         <iframe width="560" height="315" src="https://ual.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=82369069-7caf-49eb-8928-b22d00f0b0ad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    
+    <!-- MATERIALS NEEDED -->
+    <div class="prep-box">
+      <h3>Materials Needed</h3>
+      
+      <div class="materials-list">
+        <div class="material-item">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlYTM3YTMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIxNiA2IDEzIDggMTYgMTAgMTMgMTIgMTYgMTQgMTMgMTYgMTYgMTggMTMgMjAgMTYgMjIiPjwvcG9seWxpbmU+PHBhdGggZD0iTTggMmwxIDNNOCAyTDcgNU04IDJoOCI+PC9wYXRoPjxwYXRoIGQ9Ik0xNiAyYTIgMiAwIDAgMSAyIDJWM2EyIDIgMCAwIDEgMiAydjRhMiAyIDAgMCAxLTIgMnY4Yy44NC4yOTQgMS40NTYgMS4MDY4IDEuNiAyaDIuNGMuMTQzLS45MzIuNzYxLTEuNzA2IDEuNi0ySEE4IDEgMCAwIDEgMjIgMThWNGE0IDQgMCAwIDAtNC00YS4xIDAgMSAwIDAgMC0xIDBoLTdNNSAyMkgzYTEgMSAwIDAgMS0xLTFWM2ExIDEgMCAwIDEgMS0xaDFNU IDE4djQiPjwvcGF0aD48L3N2Zz4=" />
+          <span>Clear Sellotape</span>
+        </div>
+        <div class="material-item">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlYTM3YTMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgOXY2TTggMTJoOCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjciLz48cGF0aCBkPSJNMjIgMTJjMCA1LjUyMy00LjQ3NyAxMC0xMCAxMFMyIDI3LjUyMyAyIDEyIDYuNDc3IDIgMTIgMiAyMiA2LjQ3NyAyMiAxMnoiLz48L3N2Zz4=" />
+          <span>Laser-printed images</span>
+        </div>
+        <div class="material-item">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlYTM3YTMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSI2IiBjeT0iNiIgcj0iMyIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxOCIgcj0iMyIvPjxwYXRoIGQ9Ik0yMCA0TDguMTIgMTUuODhNMTQuNDcgMTQuNDhMMjAgMjBNOC4xMiA4LjEyTDE2IDI2IiAvPjwvc3ZnPg==" />
+          <span>Scissors or cutting knife</span>
+        </div>
+        <div class="material-item">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlYTM3YTMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSA2aDFNNSAxOGgxTTE5IDZoMU0xOSAxOGgxIj48L3BhdGg+PHBhdGggZD0iTTEyIDkuNTZMOC4wNCA4LjYyQzcuNzcgOC41NSA3LjQ4IDguNTMgNy4yIDguNTZjLTMuMTUuMzItNS4yOCA0LjcxLTQuNiA5LjY1czQgOC42OCA3LjE0IDguMzZjLjMtLjAzLjU4LS4xNC44NS0uMzFsMTAuMDktNi40M2MuNy0uNDQgMS4xMi0xLjE4IDEuMTItMi02LjA0LTEuMDIuMDgtMS4wMi0yLjE0LTkuODUtMi4yMy0uODEtMi40Ni0uOTktMy41OS0uNTlsLTQuNTcgMi45MiIgc3R5bGU9ImZpbGw6bm9uZSI+PC9wYXRoPjwvc3ZnPg==" />
+          <span>Bowl of water</span>
+        </div>
+        <div class="material-item">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlYTM3YTMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMiA0aDIwdjEwSDJWNHoiPjwvcGF0aD48cGF0aCBkPSJNNiAxNHY2TTE4IDE0djYiPjwvcGF0aD48cGF0aCBkPSJNNCAxOGgxNnY4SDB2LTRoOCIgc3R5bGU9ImZpbGw6bm9uZSI+PC9wYXRoPjwvc3ZnPg==" />
+          <span>Towel or sponge</span>
+        </div>
+      </div>
+      
+      <div style="margin-top: 15px; padding: 10px 15px; background: rgba(234, 55, 163, 0.1); border-left: 4px solid var(--primary); border-radius: 4px;">
+        <p><strong>Note:</strong> Laser-printed images must be from a laser printer, not an inkjet printer, for this technique to work properly.</p>
       </div>
     </div>
     
