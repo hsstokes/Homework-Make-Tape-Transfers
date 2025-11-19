@@ -229,6 +229,50 @@
         </div>
       </div>
     </div>
+
+     <!-- EXAMPLE INSPIRATION SECTION -->
+<h2>Inspiration: Experimental Techniques</h2>
+
+<div style="background: #f8f8f8; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h3 style="color: var(--secondary); margin-top: 0;">Example: Research Page</h3>
+  
+  <!-- Main image with click-to-enlarge functionality -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <!-- The thumbnail image that appears on the page -->
+    <img src="william-larson-example.jpg" alt="William Larson inspired research page" 
+         style="width: 80%; max-width: 600px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); cursor: pointer;"
+         onclick="document.getElementById('enlarged-image-modal').style.display='flex';">
+    <div style="font-size: 0.8em; color: #666; margin-top: 5px;">Click image to enlarge</div>
+  </div>
+  
+  <!-- Modal popup for enlarged image -->
+  <div id="enlarged-image-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); z-index: 1000; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="william-larson-example.jpg" alt="William Larson inspired research page (enlarged)" 
+         style="max-width: 90%; max-height: 80%; object-fit: contain; border: 3px solid white;">
+    <button onclick="document.getElementById('enlarged-image-modal').style.display='none'" 
+            style="margin-top: 20px; padding: 10px 20px; background: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+      Close
+    </button>
+  </div>
+
+  <!-- Key techniques with visual callouts -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 10px;">
+    <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid var(--primary);">
+      <h4 style="color: var(--secondary); margin-top: 0;">1. Photocopier Movement</h4>
+      <p>Moving images while scanning creates distortions and "glitch" effects</p>
+    </div>
+    
+    <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid var(--primary);">
+      <h4 style="color: var(--secondary); margin-top: 0;">2. Tape Transfers</h4>
+      <p>Washi and grid patterned tapes create textural elements</p>
+    </div>
+    
+    <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid var(--primary);">
+      <h4 style="color: var(--secondary); margin-top: 0;">3. Composition</h4>
+      <p>Combining elements into a cohesive layout with clear visual hierarchy</p>
+    </div>
+  </div>
+</div>
     
     <!-- PREP WORK -->
     <div class="prep-box">
